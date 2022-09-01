@@ -1,0 +1,24 @@
+{
+  "name": "log4js-discord-appender",
+  "version": "1.0.0-alpha",
+  "description": "Log4js Discord Appender",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Piyush Kacha<piyushkacha75@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "discord-appender",
+    "logger",
+    "log4js",
+    "webhook",
+    "notification",
+    "appender",
+    "log"
+  ],
+  "dependencies": {
+    "axios": "0.27.2"
+  }
+}
