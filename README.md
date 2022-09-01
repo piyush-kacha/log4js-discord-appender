@@ -10,10 +10,24 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 npm i log4js-discord-appender
 ```
 
-## Configuration
+## Configuration in discord
+
+1. Open your **Server Settings** and head into the **Integrations** tab:
+2. Click the **"Create Webhook"** button to create a new webhook!
+
+![Discord Configuration 1](https://i.postimg.cc/BnqGzzH6/discord-image-1.png)
+
+You'll have a few options here. You can:
+* **Edit the avatar**: By clicking the avatar next to the Name in the top left
+* **Choose what channel the Webhook posts to**: By selecting the desired text channel in the  dropdown menu.
+* **Name your Webhook**: Good for distinguishing multiple webhooks for multiple different services.
+
+![Discord Configuration 2](https://i.postimg.cc/RZVZthPX/discord-image-2.png)
+
+## Configuration in code
 
 * `type` - `log4js-discord-appender`
-* `webhookURL` - Your channel's incoming webhhok URL
+* `webhookURL` - Enter the **Discord-generated** URL
 ## Example
 
 #### With webhook url

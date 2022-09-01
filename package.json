@@ -1,11 +1,12 @@
 {
   "name": "log4js-discord-appender",
-  "version": "1.0.0-alpha",
+  "version": "1.0.1-alpha",
   "description": "Log4js Discord Appender",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "piyush-kacha/log4js-discord-appender",
   "author": "Piyush Kacha<piyushkacha75@gmail.com>",
   "license": "MIT",
   "keywords": [
